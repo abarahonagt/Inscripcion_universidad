@@ -1,0 +1,114 @@
+@import url('fonts/BrixSansRegular.css');
+@import url('fonts/BrixSansBlack.css');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p, label, span, table{
+	font-family: 'BrixSansRegular';
+	font-size: 9pt;
+}
+.h2{
+	font-family: 'BrixSansBlack';
+	font-size: 16pt;
+}
+.h3{
+	font-family: 'BrixSansBlack';
+	font-size: 12pt;
+	display: block;
+	background: #0a4661;
+	color: #FFF;
+	text-align: center;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+#page_pdf{
+	width: 95%;
+	margin: 15px auto 10px auto;
+}
+
+#boleta_head, #boleta_alumno, #boleta_detalle{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.logo_boleta{
+	width: 25%;
+}
+.info_u{
+	width: 50%;
+	text-align: center;
+}
+.info_boleta{
+	width: 25%;
+}
+.info_alumno{
+	width: 100%;
+}
+.datos_alumno{
+	width: 100%;
+}
+.datos_alumno tr td{
+	width: 50%;
+}
+.datos_alumno{
+	padding: 10px 10px 0 10px;
+}
+.datos_alumno label{
+	width: 75px;
+	display: inline-block;
+}
+.datos_alumno p{
+	display: inline-block;
+}
+
+.textright{
+	text-align: right;
+}
+.textleft{
+	text-align: left;
+}
+.textcenter{
+	text-align: center;
+}
+.round{
+	border-radius: 10px;
+	border: 1px solid #0a4661;
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+.round p{
+	padding: 0 15px;
+}
+
+#boleta_detalle{
+	border-collapse: collapse;
+}
+#boleta_detalle thead th{
+	background: #058167;
+	color: #FFF;
+	padding: 5px;
+}
+#detalle_cursos tr:nth-child(even) {
+    background: #ededed;
+}
+#detalle_totales span{
+	font-family: 'BrixSansBlack';
+}
+.nota{
+	font-size: 8pt;
+}
+.label_gracias{
+	font-family: verdana;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-top: 20px;
+}
+.anulada{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}

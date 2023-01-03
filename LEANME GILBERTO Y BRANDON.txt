@@ -1,0 +1,8 @@
+CREDENCIALES ADMIN:
+
+user: bchu
+pass: 123
+
+user: gmonterroso
+pass: 123
+

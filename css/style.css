@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    font-family: 'Corbel';
+    font-size: 30px;
+    letter-spacing: 1px;
+    width: 100%;
+    background: #0a5194;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#container{
+    background: 'img/fondo1.jpg';
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container form{
+    background:rgba(0, 0, 0, 0.6);
+    width: 500px;
+    height: 750px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#container form img{
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+}
+
+#container form input{
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    display: block;
+    margin: 25px auto;
+    border: 2px solid #EAECEE;
+    font-family: 'Corbel';
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#container form input[type="submit"]{
+    background: #2b88e6;
+    padding: 10px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Corbel';
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.alert{
+    font-family: 'Corbel';
+    font-size: 18px;
+    text-align: center;
+}
+
+#form_anular{
+    width: 420px;
+    text-align: center;
+}
+

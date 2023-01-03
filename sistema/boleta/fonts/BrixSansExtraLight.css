@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'BrixSansExtraLight';
+  src: url('BrixSansExtraLight.eot?#iefix') format('embedded-opentype'),  url('BrixSansExtraLight.otf')  format('opentype'),
+	     url('BrixSansExtraLight.woff') format('woff'), url('BrixSansExtraLight.ttf')  format('truetype'), url('BrixSansExtraLight.svg#BrixSansExtraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
